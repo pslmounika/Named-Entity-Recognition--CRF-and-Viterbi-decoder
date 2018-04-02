@@ -5,7 +5,7 @@ def run_viterbi(emission_scores, trans_scores, start_scores, end_scores):
     #Transmission prob is P(currentTag/PreviousTag)
     #Emission prob is P(currentWord/currentTag)
     
-
+    """
     N -->1
     L -->3
     Emission
